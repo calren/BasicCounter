@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val numberTextView = findViewById<TextView>(R.id.number)
 
         findViewById<Button>(R.id.subtract).setOnClickListener {
-            number--
+            number -= 1
             numberTextView.text = number.toString()
         }
 
